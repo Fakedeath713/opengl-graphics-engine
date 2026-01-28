@@ -1,0 +1,10 @@
+^C:\USERS\AZIZC\ONEDRIVE\OPENGL\MYPROJECT\CMAKE_TEST_PROJE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/azizc/OneDrive/opengl/myproject/cmake_test_proje -BC:/Users/azizc/OneDrive/opengl/myproject/newbuild --check-stamp-file C:/Users/azizc/OneDrive/opengl/myproject/newbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

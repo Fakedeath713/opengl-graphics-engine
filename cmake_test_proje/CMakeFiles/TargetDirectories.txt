@@ -1,0 +1,3 @@
+C:/Users/azizc/OneDrive/opengl/myproject/cmake_test_proje/CMakeFiles/testproject.dir
+C:/Users/azizc/OneDrive/opengl/myproject/cmake_test_proje/CMakeFiles/ALL_BUILD.dir
+C:/Users/azizc/OneDrive/opengl/myproject/cmake_test_proje/CMakeFiles/ZERO_CHECK.dir

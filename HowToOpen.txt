@@ -1,0 +1,7 @@
+This is how you open it:
+->There are tasks in vscode which you can run this code:
+
+1->Run task "CMake"
+2->Run task "make"
+
+3->Press F5, there is launch.json

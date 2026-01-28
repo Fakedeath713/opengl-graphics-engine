@@ -1,0 +1,6 @@
+{
+    "ModelName":"TextureSand",
+    "TextureName":"sand.jpg",
+    "ShaderProgramName":"TextureShader",
+    "ShapeType":3
+}

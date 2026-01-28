@@ -1,0 +1,50 @@
+Good! The warnings are normal (just line ending differences between Windows/Linux). But I notice you're adding some files you probably don't want in your repo:
+Issues I See:
+
+✅ .vscode/ folders - IDE settings (should be ignored)
+✅ include/KHR/ and include/glad/ - These are external libraries (should be ignored)
+✅ glad.c - External library source
+
+You have 3 separate projects in subfolders: cmake_test_odev1, cmake_test_odev2, cmake_test_proje
+
+Fix Before Committing:
+Option 1: If these are all separate projects, make separate repos
+Option 2: If this is one project with multiple assignments, clean it up:
+1. Stop and create .gitignore NOW:
+bash# Create .gitignore file
+notepad .gitignore
+```
+
+**2. Add this to .gitignore:**
+```
+# IDE files
+.vscode/
+.vs/
+*.vcxproj.user
+*.suo
+
+# Build artifacts
+build/
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.o
+*.obj
+
+# External libraries (GLAD is external)
+**/include/KHR/
+**/include/glad/
+**/src/glad.c
+
+# Or if you want to exclude specific folders:
+cmake_test_odev1/include/KHR/
+cmake_test_odev1/include/glad/
+cmake_test_odev1/src/glad.c
+cmake_test_odev2/include/KHR/
+cmake_test_odev2/include/glad/
+cmake_test_odev2/src/glad.c
+cmake_test_proje/include/KHR/
+cmake_test_proje/include/glad/
+cmake_test_proje/src/glad.c

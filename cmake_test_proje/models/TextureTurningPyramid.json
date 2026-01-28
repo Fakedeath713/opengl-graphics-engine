@@ -1,0 +1,6 @@
+{
+    "ModelName":"TextureTurningPyramid",
+    "TextureName":"cobblestone.jpg",
+    "ShaderProgramName":"TextureShader",
+    "ShapeType":3
+}

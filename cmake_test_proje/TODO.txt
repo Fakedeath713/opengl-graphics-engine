@@ -1,0 +1,47 @@
+4- add cylinder as a shape // en son
+
+10- add a save scene button. 
+When the app is reopened, the scene will
+continue from where we left it
+
+
+
+
+
+
+
+
+
+
+
+
+
+5- pyramid indicator on chosen model :x:
+
+11- add a second window to create models.
+update the models vector :x:
+
+1- changing models on ImGui :x:
+
+2- changing positions + rotations + scales 
+of the given model on ImGui :x:
+
+3- change the texture and texture repeat
+from the window  :x:
+
+
+7- changeable cameras :x:
+
+
+12- create camera from the second window.
+update the camera vector :x:
+
+9- changing camera's position + rotation,
+fov + aspect ratio + np + fp :x:
+
+6- 2 cameras at the start, add a Line pyramid
+which its length will be near plane :x:
+
+
+8- add viewport, and make the second camera
+show on the viewport:x:

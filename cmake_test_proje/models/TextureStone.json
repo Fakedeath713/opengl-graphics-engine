@@ -1,0 +1,12 @@
+{
+    "ModelName":"TextureStone",
+    "TextureName":"cobblestone.jpg",
+    "ShaderProgramName":"TextureShader",
+    "ShapeType":2,
+    "Scale":[
+        1.0, 1.0, 1.0
+    ],
+    "Position":[
+        -5.0, 0.0, 0.0
+    ]
+}

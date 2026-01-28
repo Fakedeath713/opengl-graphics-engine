@@ -1,0 +1,12 @@
+{
+    "ModelName":"TextureGround",
+    "TextureName":"grass.jpg",
+    "ShaderProgramName":"TextureShader",
+    "ShapeType":2,
+    "Scale":[
+        20.0, 1.0, 20.0
+    ],
+    "Position":[
+        0.0, -2.0, 0.0
+    ]
+}
